@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+November 1, 2020
 
 ### Project Title
-Replace the Project Title
+Posting Bikeshare Project on Github
 
 ### Description
-Describe what your project is about and what it does
+In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington. I wrote code to import bike share data and to answer interesting questions about it by computing descriptive statistics. I also wrote a script that took in raw input that created an interactive experience in the terminal to present these statistics
 
 ### Files used
-Include the files used
+bikeshare.py, chicago.csv, wasington.csv, new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity's Programming in Data Science curriculum provided some of the initial code, supporting documentation and lessons.
