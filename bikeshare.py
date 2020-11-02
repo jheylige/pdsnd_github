@@ -47,7 +47,7 @@ def get_filters():
     try:
         day = input('Which day of week would you like to select (Monday up to Sunday or all) ').lower()
         while (day not in day_names):
-            print('this is not a valid day , please try again!')
+            print('this is not a valid day , please try again')
             day = input("Enter valid day name: ").lower()
         print("You selected ",day," thank you!")
     except e:
