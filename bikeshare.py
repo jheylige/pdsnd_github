@@ -123,9 +123,9 @@ def time_stats(df):
     print('The most common day is',common_day)
 
     # TO DO: display the most common start hour
-    common_hour = df['hour'].mode()[0]
+    common_start_hour = df['hour'].mode()[0]
     common_hour_count = hour.value_counts().max()
-    print('The most common start hour is {} and count is {}'.format(common_hour,common_hour_count))
+    print('The most common start hour is {} and count is {}'.format(common_start_hour,common_hour_count))
 
     print("\nThe results took %s seconds." % (time.time() - start_time))
     print('-'*40)
